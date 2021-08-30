@@ -4017,9 +4017,8 @@ img {
 .about-section .right-column .inner-column {
   position: relative;
   width: 100%;
-  /* max-width: 600px; */
-  /* padding: 70px 15px 40px 100px; */
-  height: 100%;
+  max-width: 600px;
+  padding: 70px 15px 40px 100px;
 }
 .about-section .right-column .inner-column img{
   
