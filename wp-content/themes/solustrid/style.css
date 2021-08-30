@@ -4017,8 +4017,12 @@ img {
 .about-section .right-column .inner-column {
   position: relative;
   width: 100%;
-  max-width: 600px;
-  padding: 70px 15px 40px 100px;
+  /* max-width: 600px; */
+  /* padding: 70px 15px 40px 100px; */
+  height: 100%;
+}
+.about-section .right-column .inner-column img{
+  
 }
 .services-block-six {
   position: relative;
