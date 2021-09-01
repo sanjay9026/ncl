@@ -1070,3 +1070,20 @@
     .colorswatch, .demo-rtl, .demo-ltr{
         display: none;
     }
+
+    .news-carousel.owl-carousel .owl-nav{
+        display: block !important;
+    }
+
+    @media(max-width:992px){
+        .news-carousel.owl-carousel .owl-nav {
+            display: block !important;
+            top: auto !important;
+            margin: 0px;
+            left: 0px;
+            bottom: 100%;
+            z-index: 1000;
+            width: 100%;
+            padding: 11px 17px;
+        }
+    }
