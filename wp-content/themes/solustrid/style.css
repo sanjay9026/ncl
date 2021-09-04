@@ -1736,7 +1736,7 @@ img {
 }
 .services-block .inner-box .icon-box {
   position: relative;
-  font-size: 60px;
+  font-size: 55px;
   line-height: 1em;
   color: #001e57;
   transition: all 500ms ease;
@@ -1770,10 +1770,10 @@ img {
 }
 .services-block .inner-box .text {
   position: relative;
-  font-size: 16px;
+  font-size: 14px;
   line-height: 1.7em;
   color: #555;
-  padding: 0 22px;
+  padding: 0 0px;
   transition: all 500ms ease;
   -moz-transition: all 500ms ease;
   -webkit-transition: all 500ms ease;
@@ -3145,34 +3145,34 @@ img {
   content: "";
   background-image: -ms-linear-gradient(
     left,
-    rgba(0, 18, 52, 0.95) 0%,
+    rgb(225 23 57)  0%,
     rgba(255, 255, 255, 0) 100%
   );
   background-image: -moz-linear-gradient(
     left,
-    rgba(0, 18, 52, 0.95) 0%,
+    rgb(225 23 57)  0%,
     rgba(255, 255, 255, 0) 100%
   );
   background-image: -o-linear-gradient(
     left,
-    rgba(0, 18, 52, 0.95) 0%,
+    rgb(225 23 57)  0%,
     rgba(255, 255, 255, 0) 100%
   );
   background-image: -webkit-gradient(
     linear,
     left top,
     right top,
-    color-stop(0, rgba(0, 18, 52, 0.95)),
+    color-stop(0, rgb(225 23 57) ),
     color-stop(100, rgba(255, 255, 255, 0))
   );
   background-image: -webkit-linear-gradient(
     left,
-    rgba(0, 18, 52, 0.95) 0%,
+    rgb(225 23 57)  0%,
     rgba(255, 255, 255, 0) 100%
   );
   background-image: linear-gradient(
     to right,
-    rgba(0, 18, 52, 0.95) 0%,
+    rgb(225 23 57)  0%,
     rgba(255, 255, 255, 0) 100%
   );
   z-index: 0;
@@ -5976,14 +5976,7 @@ a.ui-button:active,
 .about-section-two .fact-counter .column .counter-title {
   letter-spacing: 0;
 }
-.mission-section {
-  position: relative;
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover;
-  padding: 100px 0;
-  margin-top: 105px;
-}
+
 .mission-section:before {
   position: absolute;
   left: 0;
@@ -9687,7 +9680,7 @@ a.rsswidget {
   font-size: 20px;
 }
 .news-block .inner-box .lower-content h3 {
-  font-size: 20px;
+  font-size: 18px;
 }
 .news-block-two .inner-box .lower-content h3 {
   font-size: 26px;
@@ -12211,4 +12204,21 @@ rs-bullet.tp-bullet.selected {
   .lower_case {
     text-transform: capitalize !important;
   }
+}
+
+
+.section-padder{
+  padding-top: 80px;
+  padding-bottom: 80px;
+}
+
+.footprint-section::before, .footprint-section::after{
+  display: none;
+}
+
+.bg-light {
+  background-color: #f3f5f9!important;
+}
+.msg-footer {
+  border-right: 2px solid #ec1c24;
 }

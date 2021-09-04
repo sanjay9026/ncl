@@ -1087,3 +1087,160 @@
             padding: 11px 17px;
         }
     }
+
+    .skill-section:before {
+        background-color: rgba(0, 30, 87, 0.55) !important;
+        }
+        .custom-icon br {
+        display:none;
+        }
+        .main-slider .icons-box .icon {
+        position: relative;
+        float: left;
+        display: block;
+        color: #ffffff;
+        font-size: 52px;
+        line-height: 56px;
+        margin-right: 35px;
+        font-weight: 400;
+        }
+        .tp-title-wrap {
+        display: none;
+        }
+        .main-slider .border-layer:before{
+        top: -12px !important;
+        height: 12px;
+        }
+        .custom-icon br {
+        display:none;
+        }
+        .main-slider .icons-box .icon {
+        position: relative;
+        float: left;
+        display: block;
+        color: #ffffff;
+        font-size: 52px;
+        line-height: 56px;
+        margin-right: 35px;
+        font-weight: 400;
+        }
+        .tp-title-wrap {
+        display: none;
+        }
+        #rev_slider_15_1_wrapper .hebe.tparrows:before{
+        transform:scale(0.8);
+        transition: all 0.3s;
+        }
+        #Home_Oil_Gas .hebe.tparrows:before{
+        transform:scale(0.8);
+        transition: all 0.3s;
+        }
+        #rev_slider_18_1_wrapper .hebe.tparrows:before{
+        transform:scale(0.8);
+        transition: all 0.3s;
+        }
+        #Home_Power_Energy
+        .hebe.tparrows:before{
+        transform:scale(0.8);
+        transition: all 0.3s;
+        }
+        #Home_Car_Factory
+        .hebe.tparrows:before{
+        transform:scale(0.8);
+        transition: all 0.3s;
+        }
+        #Home_Construction
+        .hebe.tparrows:before{
+        transform:scale(0.8);
+        transition: all 0.3s;
+        }
+        #Home_Industry
+        .hebe.tparrows:before{
+        transform:scale(0.8);
+        transition: all 0.3s;
+        }
+        #home_factory
+        .hebe.tparrows:before{
+        transform:scale(0.8);
+        transition: all 0.3s;
+        }
+        #rev_slider_15_1_wrapper .hebe.tparrows.tp-leftarrow:hover::before,
+        #rev_slider_15_1_wrapper .hebe.tparrows.tp-rightarrow:hover::before{
+        transform:scale(1);
+        }
+        #Home_Industry
+        .hebe.tparrows.tp-rightarrow:hover::before{
+        transform:scale(1);
+        }
+        #Home_Oil_Gas .hebe.tparrows.tp-leftarrow:hover::before,
+        #Home_Oil_Gas .hebe.tparrows.tp-rightarrow:hover::before{
+        transform:scale(1);
+        }
+        #rev_slider_18_1_wrapper .hebe.tparrows.tp-leftarrow:hover::before,
+        #rev_slider_18_1_wrapper .hebe.tparrows.tp-rightarrow:hover::before{
+        transform:scale(1);
+        }
+        #Home_Power_Energy .hebe.tparrows.tp-leftarrow:hover::before,
+        #Home_Power_Energy .hebe.tparrows.tp-rightarrow:hover::before{
+        transform:scale(1);
+        }
+        #Home_Car_Factory .hebe.tparrows.tp-leftarrow:hover::before,
+        #Home_Car_Factory .hebe.tparrows.tp-rightarrow:hover::before{
+        transform:scale(1);
+        }
+        #Home_Construction .hebe.tparrows.tp-leftarrow:hover::before,
+        #Home_Construction .hebe.tparrows.tp-rightarrow:hover::before{
+        transform:scale(1);
+        }
+        #home_factory .hebe.tparrows.tp-leftarrow:hover::before,
+        #home_factory .hebe.tparrows.tp-rightarrow:hover::before{
+        transform:scale(1);
+        }
+        span.tp-bullet-image {
+        display: none;
+        }
+        span.tp-bullet-imageoverlay {
+        display: none;
+        }
+        span.tp-bullet-title {
+        display: none;
+        }
+        .zeus .tp-bullet{
+        border: 2px solid #fff !important;
+        }
+        rs-bullet.tp-bullet.selected {
+        border: 2px solid #df6512 !important;
+        }
+        @media (max-width: 768px) {
+        .hide_break br {
+        display: none;
+        }
+        .hebe.tparrows:before{
+        font-size:15px !important;
+        }
+        #home_factory .hebe.tparrows:before {
+        line-height: 50px !important;
+        min-width: 50px !important;
+        min-height: 50px !important;
+        }
+        #home_factory .hebe.tparrows {
+        min-width: 50px !important;
+        min-height: 50px !important;
+        }
+        }
+        @media (max-width: 480px) {
+        a.theme-btn.btn-style-six {
+        font-size: 12px;
+        padding: 10px 15px !important;
+        }
+        a.theme-btn.btn-style-two {
+        font-size: 12px;
+        padding: 10px 15px !important;
+        }
+        rs-module#rev_slider_15_1 {
+        height: 480px !important;
+        }
+        .lower_case{
+        text-transform:capitalize !important;
+        }
+        }	

@@ -620,10 +620,10 @@ a.post-edit-link:hover {
   background-color: #e11739;
 }
 .services-block .inner-box {
-  border-bottom: 3px solid #e11739;
+  border-bottom: 4px solid #1b1a1c;
 }
 .services-block .inner-box:before {
-  background-color: #e11739;
+  background-color: #272627;
 }
 .services-block .inner-box .icon-box {
   color: #e11739;
