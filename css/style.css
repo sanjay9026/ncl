@@ -1244,3 +1244,19 @@
         text-transform:capitalize !important;
         }
         }	
+
+
+        .product-links {
+            list-style-type: none !important;
+            padding: 0px !important;
+        }
+        .product-sidebar{
+            background-color: #1b1a1c;
+        }
+
+        .bg-danger {
+            background-color: #e11739!important;
+        }
+        .text-danger{
+            color: #e11739!important;;
+        }
