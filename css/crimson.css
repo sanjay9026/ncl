@@ -389,13 +389,14 @@ a.ui-button:active,
   background-color: #272727;
 }
 .team-block .inner-box:hover .lower-content {
-  border-color: #272727;
+  border-color: #e11739;
 }
 .team-block .lower-content .arrow {
-  color: #272727;
+  color: #ffffff;
+  background-color: #1b1a1c;
 }
 .team-block .inner-box:hover .lower-content .arrow {
-  background-color: #272727;
+  background-color: #e11739;
 }
 .team-block-two .contact-list li .icon {
   color: #272727;
@@ -788,10 +789,10 @@ a.post-edit-link:hover {
   color: #e11739;
 }
 .team-block .lower-content {
-  border-bottom: 3px solid #e11739;
+  border-bottom: 3px solid #1b1a1c;
 }
 .team-block .inner-box:hover .lower-content {
-  background-color: #e11739;
+  background-color: #272727;
 }
 .team-block-two .lower-content {
   border-bottom: 3px solid #e11739;
