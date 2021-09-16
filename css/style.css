@@ -1260,3 +1260,29 @@
         .text-danger{
             color: #e11739!important;;
         }
+
+.company-value-item{
+    display: flex;
+    align-items: center;
+    margin-bottom: 30px;
+}
+.company-value-item .icon{
+    height: 60px;
+    width: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px dashed black;
+    margin-right: 15px;
+    border-radius: 50%;
+}
+.company-value-item .icon img{
+    width: 30px;
+    height: 30px;
+    object-fit: contain;
+}
+.company-value-item h4{
+    margin-bottom: 0px;
+    font-size: 
+    18px;
+}
