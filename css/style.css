@@ -1350,7 +1350,9 @@
     font-size: 15px;
     padding: 0px 3px;
 }
-
+.navbar-light .navbar-nav .nav-item.active .nav-link {
+    color: #e11739!important;
+}
 .navbar .nav-item {
     padding: 0 .5rem;
     margin: 0px;
