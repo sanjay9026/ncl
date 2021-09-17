@@ -1413,3 +1413,18 @@
         border-top: 0px;
     }
 }
+.testimonial-carousel.owl-carousel .owl-stage{display: flex;}
+
+.testimonial-carousel.owl-carousel .owl-stage .testimonial-block-one
+{
+    height: 100%;
+}
+.testimonial-carousel.owl-carousel .owl-stage .testimonial-block-one .inner-box{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+
+}
+.testimonial-carousel.owl-carousel .owl-stage .testimonial-block-one .inner-box .upper{
+    flex: 1;
+}
