@@ -1,3 +1,14 @@
+@font-face
+         {
+            font-family:eicons;
+            src:url(wp-content/plugins/elementor/assets/lib/eicons/fonts/eicons.eot);
+            src:url(wp-content/plugins/elementor/assets/lib/eicons/fonts/eicons.eot) 
+            format("embedded-opentype"),url(wp-content/plugins/elementor/assets/lib/eicons/fonts/eicons.woff2) 
+            format("woff2"),url(wp-content/plugins/elementor/assets/lib/eicons/fonts/eicons.woff) 
+            format("woff"),url(wp-content/plugins/elementor/assets/lib/eicons/fonts/eicons.ttf) 
+            format("truetype"),url(wp-content/plugins/elementor/assets/lib/eicons/fonts/eicons.svg) 
+            format("svg");font-weight:400;font-style:normal
+         }
 .page-banner.style-two{
     background-image:url();
     }
@@ -1376,12 +1387,13 @@
     margin-bottom: 4px;
 }
 .menu-title {
-    font-size: 15px;
+    font-size: 14px;
     font-weight: 700;
     display: block;
     margin-bottom: 15px;
     border-bottom: 1px solid #dfdfdf;
     padding-bottom: 8px;
+    text-transform: uppercase;
 }
 .accordion-link:not(.collapsed), .accordion-link:hover{
     color: #e11739!important;
@@ -1393,8 +1405,11 @@
     position: relative;
 }
 .accordion-link::after{
-    content: "\f13a";
-    font-family: FontAwesome;
+    content: "\f078";
+    font-family: 'font awesome 5 free';
+    font-weight: 700;
+    font-size: 13px;
+    margin-left: 5px;
 }
 .accordion-link:not(.collapsed)::after{
     transform: rotate(180deg);
