@@ -1388,12 +1388,13 @@
 }
 .menu-title {
     font-size: 14px;
-    font-weight: 700;
+    font-weight: 800;
     display: block;
     margin-bottom: 15px;
     border-bottom: 1px solid #dfdfdf;
     padding-bottom: 8px;
     text-transform: uppercase;
+    color: #e11739;
 }
 .accordion-link:not(.collapsed), .accordion-link:hover{
     color: #e11739!important;
