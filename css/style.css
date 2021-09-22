@@ -1446,6 +1446,7 @@
 .testimonial-carousel.owl-carousel .owl-stage .testimonial-block-one .inner-box .upper{
     flex: 1;
 }
-.fa-phone{
-    transform: scale(-1) rotate(180deg);
+.fa-phone {
+    transform: rotate(
+90deg);
 }
