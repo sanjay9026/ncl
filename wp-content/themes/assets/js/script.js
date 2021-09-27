@@ -49,9 +49,7 @@
     });
     wow.init();
   }
-  $(window).on("scroll", function () {
-    headerStyle();
-  });
+  
   $(window).on("load", function () {
     handlePreloader();
   });
