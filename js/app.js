@@ -14,3 +14,4 @@ var elementorFrontendConfig = {"environmentMode":{"edit":false,"wpPreview":false
       var slider = document.getElementById(sliderID); slider.innerHTML = err; slider.style.display = "block";
     }
   }
+ 
