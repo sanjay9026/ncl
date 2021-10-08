@@ -1450,3 +1450,26 @@
     transform: rotate(
 90deg);
 }
+aside.product-sidebar ul {
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+}
+aside.product-sidebar ul .nav-item{
+    padding: 0 .5rem;
+}
+aside.product-sidebar ul .nav-item a {
+    color: white;
+    padding: 3px 14px;
+    font-size: 13px;
+}
+aside.product-sidebar .accordion-link:not(.collapsed) ~ div .accordion-link:not(.collapsed) {
+    color: white !important;
+}
+aside.product-sidebar ul .nav-item a:hover{
+    color: white !important;
+    opacity: .9;
+}
+.accordion > .nav-item {
+    margin: 5px 0px;
+}
