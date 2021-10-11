@@ -1473,3 +1473,68 @@ aside.product-sidebar ul .nav-item a:hover{
 .accordion > .nav-item {
     margin: 5px 0px;
 }
+
+
+.tab-slider div.owl-dot button.owl-dot {
+    width: 76px;
+    height: 60px;
+    margin: 0px 4px;
+  }
+  .tab-slider .owl-dots {
+    position: absolute;
+    bottom: calc(100% + 42px);
+    right: 0px;
+    display: flex;
+    align-items: center;
+  }
+  .tab-slider .owl-dots div:nth-child(1) button.owl-dot {
+    background-image: url(../images/tab-icons/icon1.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+  .tab-slider .owl-dots div:nth-child(2) button.owl-dot {
+    background-image: url(../images/tab-icons/icon2.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+  .tab-slider .owl-dots div:nth-child(3) button.owl-dot {
+    background-image: url(../images/tab-icons/icon3.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+  .tab-slider .owl-dots div:nth-child(4) button.owl-dot {
+    background-image: url(../images/tab-icons/icon4.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+  
+  .tab-slider .owl-dots .owl-dot.active {
+    background-color: #ec1c24;
+    position: relative;
+    border-radius: 0.25rem;
+  }
+  .tab-slider .owl-dots .owl-dot.active button{
+      background-color: transparent;
+  }
+  .tab-slider .owl-dots .owl-dot.active button.owl-dot {
+    filter: invert(1);
+    display: block;
+  }
+  
+  .tab-slider .owl-dots .owl-dot.active:hover {
+    background-color: #ec1c24;
+    position: relative;
+  }
+  .tab-slider .owl-dots .owl-dot.active::after {
+    content: "";
+    width: 0px;
+    height: 0px;
+    border-width: 12px;
+    border-color: transparent;
+    border-style: solid;
+    border-top-color: #ec1c24;
+    position: absolute;
+    bottom: -24px;
+    left: 50%;
+    transform: translateX(-50%);
+  }
